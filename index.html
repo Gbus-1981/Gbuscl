@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gbus.cl - Ilustraciones de Rock Metal</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="fullscreen-section">
+            <h1>Gbus.cl</h1>
+            <p class="tagline">Ilustraciones que desatan el poder del Rock</p>
+            <a href="#contacto" class="cta-button">Pide tu boceto gratis</a>
+        </section>
+
+        <section id="servicios" class="fullscreen-section">
+            <h2>Servicios</h2>
+            <div class="servicios-grid">
+                <article class="servicio">
+                    <h3>Ilustraciones</h3>
+                    <p>Portadas para álbumes, afiches y poleras.</p>
+                </article>
+                <article class="servicio">
+                    <h3>Logotipos</h3>
+                    <p>Exclusivos cargados con la esencia de tu estilo.</p>
+                </article>
+                <article class="servicio">
+                    <h3>Animaciones</h3>
+                    <p>Para tus lyric videos, reels o promos.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="portafolio" class="fullscreen-section">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+                <figure class="galeria-item">
+                    <img src="assets/img/PORTADA.jpg" alt="Portada de álbum de metal">
+                    <figcaption>Portada de álbum para banda de metal sinfónico</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="assets/img/STEELBACK.jpg" alt="Logotipo de banda de rock">
+                    <figcaption>Logotipo personalizado para banda de hard rock</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="assets/img/PORTADA_NONHKULT.jpg" alt="Póster de concierto">
+                    <figcaption>Póster promocional para festival de metal extremo</figcaption>
+                </figure>
+                <figure class="galeria-item">
+                    <img src="assets/img/PORTADA_BONFIRE_OF_SERPENTS.jpg" alt="Animación para lyric video">
+                    <figcaption>Fragmento de animación para lyric video de power metal</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contacto" class="fullscreen-section">
+            <h2>Contacto</h2>
+            <form>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Rock On!</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Gbus.cl. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- Añade esto justo antes del cierre del </body> -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+</body>
+</html>
